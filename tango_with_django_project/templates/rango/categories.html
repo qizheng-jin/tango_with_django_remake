@@ -7,7 +7,6 @@
             <a href="{% url 'rango:show_category' c.slug %}">{{ c.name }}</a>
         {% else %}
             <li>
-                <strong>There are no categories present.</strong>
             </li>
         {% endif %}
     {% endfor %}
